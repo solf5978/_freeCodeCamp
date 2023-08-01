@@ -20,11 +20,11 @@ def computer_guess(user_input):
         response = input(f"Is { _guessing} too hifigh (H), too low (L), or correct (C)").lower()
         if response == "h":
             max = _guessing
-            _guessing = random.randint(min, _guessing)
+            _guessing = random.randint(min, _guessing - 1)
 
         elif response == "l":
             min = _guessing
-            _guessing = random.randint(_guessing, max)
+            _guessing = random.randint(_guessing + 1, max)
     print("OK")
 
 
