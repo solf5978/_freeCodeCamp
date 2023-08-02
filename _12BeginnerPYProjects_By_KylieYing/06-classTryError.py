@@ -24,7 +24,7 @@ class HumanPlayer(Player):
         vaild_square = False
         val = None
         while not vaild_square:
-            square = int(input(self.letter + '\'s turn. Choice from 0-9: '))
+            square = int(input(self.letter + '\'s turn. Choice from 0-8: '))
             try:
                 val = int(square)
                 if val not in game.avail_moves():
@@ -32,6 +32,7 @@ class HumanPlayer(Player):
                 vaild_square = True
             except ValueError:
                 print("Invalid Moves, Try Again.")
+        return val
 
 class sharpGame:
     def __init__(self):
@@ -64,13 +65,14 @@ class sharpGame:
     def make_move(self, square, letter):
         if self.board[square] == " ":
             self.board[square] = letter
+            print(square, letter)
             if self.winner(square, letter):
                 self.current_winner = letter
             return True
         return False
     
-    def winner(square, letter):
-        row_ind = square
+    def winner(self, square, letter):
+        row_ind = square // 3
         row = self.board[row_ind * 3 : (row_ind + 1) * 3]
         if all([spot == letter for spot in row]):
             return True
@@ -97,7 +99,7 @@ def play(game, x_player, o_player, print_game=True):
 
     letter = "X"
     while game.empty_square():
-        if letter == "0":
+        if letter == "O":
             square = o_player.get_move(game)
         else:
             square = x_player.get_move(game)
@@ -107,11 +109,11 @@ def play(game, x_player, o_player, print_game=True):
                 print(letter + f" Makes a move to the square {square}")
                 game.print_board()
                 print(" ")
-            
+
             if game.current_winner:
                 if print_game:
                     print(letter + " Wins")
-                    return letter
+                return letter
 
             letter = "O" if letter == "X" else "X"
     if print_game:
