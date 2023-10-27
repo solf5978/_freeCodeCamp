@@ -8,6 +8,9 @@
 ### Python
 ---
 - 2023 / 10 / 27
+[Network Programming With Python](https://www.youtube.com/watch?v=FGdiSJakIS4) By NeuralLine
+
+- 2023 / 10 / 27
 [Web Scraping with Python](https://www.youtube.com/watch?v=XVv6mJpFOb0&pp=ygUkcHl0aG9uIHdlYiBzY3JhcGluZyBqaW0gZnJlZWNvZGVjYW1w) By Jim Shaped Coding
 
 - 2023 / 08 / 22
