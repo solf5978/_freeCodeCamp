@@ -7,6 +7,9 @@
 
 ### Python
 ---
+- 2023 / 10 /28
+[Django Tutorial Digital Resume With Python Backend](https://www.youtube.com/watch?v=0oSsLbh_Kv4) By Bobby Stearman
+
 - 2023 / 10 / 27
 [Network Programming With Python](https://www.youtube.com/watch?v=FGdiSJakIS4) By NeuralLine
 
