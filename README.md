@@ -7,6 +7,9 @@
 
 ### Python
 ---
+- 2023 / 10 / 27
+[Web Scraping with Python](https://www.youtube.com/watch?v=XVv6mJpFOb0&pp=ygUkcHl0aG9uIHdlYiBzY3JhcGluZyBqaW0gZnJlZWNvZGVjYW1w) By Jim Shaped Coding
+
 - 2023 / 08 / 22
 [Python NumPy Tutorial For Beginners](https://www.youtube.com/watch?v=QUT1VHiLmmI) By Keith Galli
 - 2023 / 08 / 21
