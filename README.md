@@ -7,7 +7,7 @@
 
 ### Python
 ---
-- 2023 / 10 / 27
+- 2023 / 10 / 28
 [20 Beginner Python Projects](https://www.youtube.com/watch?v=pdy3nh1tn6I) By Tomi
 
 - 2023 / 10 /27
