@@ -6,6 +6,7 @@
 
 ### Python
 ---
+- [_automatePY](https://www.youtube.com/watch?v=PXMJ6FS7llk) By Frank Andrade
 - [_pyTutorial](https://www.youtube.com/watch?v=8124kv-632k) By Bobby Stearman
 - [_pyOOP](https://www.youtube.com/watch?v=Ej_02ICOIgs) By JimShapedCoding
 - [_20BeginnerPYProjects](https://www.youtube.com/watch?v=pdy3nh1tn6I) By Tomi
