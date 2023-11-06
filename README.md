@@ -5,6 +5,7 @@
 - [_JSCardGame](https://www.youtube.com/watch?v=Bj6lC93JMi0) By Gavin Lon
 
 ### Python
+- [_djangoChatBot](https://www.youtube.com/watch?v=qrZGfBBlXpk) By Tomi
 - [_SQLiteDBPY](https://www.youtube.com/watch?v=byHcYRpMgI4) By CodeMy
 - [_djangoRESTAPI](https://www.youtube.com/watch?v=tujhGdn1EMI) By Bobby Stearman
 - [_interMediatePY](https://www.youtube.com/watch?v=HGOBQPFzWKo) By Patrick Loeber
