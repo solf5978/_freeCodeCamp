@@ -2,6 +2,7 @@
 
 ### JavaScript
 ---
+- [_AuthJSNextAuth](https://www.youtube.com/watch?v=MNm1XhDjX1s) By ClarityCoders
 - [_JSCardGame](https://www.youtube.com/watch?v=Bj6lC93JMi0) By Gavin Lon
 
 ### Python
